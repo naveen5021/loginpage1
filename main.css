@@ -1,0 +1,58 @@
+*{
+    background: transparent;
+    background-color: rgb(27, 23, 23);
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type=text], input[type=password]{
+    width: 80%;
+    padding: 10px 10px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1.8px solid rgb(32, 95, 242);
+    box-sizing: border-box;
+    display: flex;
+}
+button{
+    width: 50%;
+    padding: 8px 10px;
+    background-color: rgb(27, 245, 245);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+}
+button:hover{
+    opacity: 0.8;
+    background-color: black;
+}
+.nav{
+    padding: 30px 25px;
+    border: 5px solid rgb(3, 52, 93);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 50%;
+    display: flex;
+    opacity: 1;
+    overflow: auto;
+    background: transparent;
+}
+b{
+    color: rgba(249, 82, 10, 0.997);
+}
+.bg::before{
+    content: '';
+    background-image: url(/example/N3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+}
+
