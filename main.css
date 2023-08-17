@@ -44,7 +44,7 @@ b{
 }
 .bg::before{
     content: '';
-    background-image: url(/example/N3.jpg);
+    background-image: url(N3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
